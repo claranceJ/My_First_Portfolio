@@ -1,18 +1,27 @@
-body{
+body.works_on_smartphone{
     display: flex;
     flex-direction: column;
-}
+    background-color: grey;
 main{
     display: flex;
     flex-direction: row;
     flex: auto;
     
+    
+    
 }
 article{
     flex: 2;
     overflow-y: auto;
+    background-color: aquamarine;
+    border-top: 8px rgb(18, 158, 88) solid;
+    color: blueviolet;
+
 }
 aside{
     flex: 1;
     overflow-y: auto;
+}
+header{
+    background-color: powderblue;
 }
